@@ -1,6 +1,6 @@
 # 🪥 Toothbrush Defect Instance Segmentation
 
-This project focuses on the detection and segmentation of micro-defects on toothbrushes using **YOLOv11/v8** and **SAHI (Slicing Aided Hyper Inference)**. It is specifically optimized for small object detection in high-resolution industrial images.
+This project focuses on the detection and segmentation of micro-defects on toothbrushes using **YOLOv26** and **SAHI (Slicing Aided Hyper Inference)**. It is specifically optimized for small object detection in high-resolution industrial images.
 
 ## 🚀 Overview
 
@@ -25,4 +25,4 @@ The following results represent the best model performance on the validation set
 Install the required dependencies using pip:
 
 ```bash
-pip install ultralytics sahi opencv-python tqdm
+pip install ultralytics sahi
