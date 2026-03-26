@@ -1,0 +1,10 @@
+# YOLOv8 dataset config for segmentation
+path: .
+train: tiled_data/train/images
+val: tiled_data/val/images
+
+names:
+  0: toothbrush
+
+# Segmentation masks are expected in train/mask and val/mask (YOLOv8 standard)
+# Each mask should have the same filename as the image, in PNG format.
